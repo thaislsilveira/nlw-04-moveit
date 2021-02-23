@@ -1,0 +1,1 @@
+<h1 align='center'>Move.it <img width="50" src="https://github.com/thaislsilveira/nlw-04-moveit/blob/main/moveit-next/public/favicon.png" alt="Logo" /> em construção 🚧 </h1>
