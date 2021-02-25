@@ -73,6 +73,10 @@
   
 }
 
+.countdownButtonActive:not(:disabled):hover object {
+  filter: brightness(0) invert(1);
+}
+
 .countdownButton > img {
   margin: 0.8rem;
 }
