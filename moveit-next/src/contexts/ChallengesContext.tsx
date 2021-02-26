@@ -5,7 +5,6 @@ import challenges from '../../challenges.json';
 import { LevelUpModal } from '../components/LevelUpModal';
 
 
-
 interface Challenge {
   type: 'body' | 'eye';
   description: string;
@@ -14,7 +13,7 @@ interface Challenge {
 
 interface ChallengesContextData {
   level: number; 
-  currentExperience: number 
+  currentExperience: number; 
   challengesCompleted: number;
   experienceToNextLevel:number;
   activeChallenge: Challenge;
@@ -73,7 +72,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
 
     if(Notification.permission === 'granted') {
       new Notification('Novo desafio 🎉', {
-        body:`Valendo ${challenge.amount}xp`
+        body:`Valendo: ${challenge.amount}xp`
       })
     }
   }

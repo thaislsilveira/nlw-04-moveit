@@ -39,7 +39,7 @@ export function ChallengeBox() {
               Falhei
             </button>
             <button 
-            className={styles.challengeSucceededButton} 
+            className={styles.challengeSuccededButton} 
             type="button"
             onClick={handleChallengeSucceded}
             >
