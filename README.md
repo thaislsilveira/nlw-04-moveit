@@ -19,7 +19,6 @@ Em caso de download do projeto você precisará baixar as dependências:
 
 ```
 yarn dev 
-
 ```
 
 ## Tecnologias utilizadas 🚀
