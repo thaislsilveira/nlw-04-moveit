@@ -12,9 +12,9 @@ para pessoas que trabalham em escritório ou home office. 👩🏽‍💻
 Em caso de download do projeto você precisará baixar as dependências:  
 
 **Necessário:** Yarn   
-
--Para iniciar o projeto, basta executar o comando abaixo:
-
+<ul>
+ <li>Para iniciar o projeto, basta executar o comando abaixo:</li>
+</ul>
 ```
 yarn dev 
 
@@ -28,4 +28,6 @@ yarn dev
     <li><a href="https://nextjs.org/" target="_blank">Next.js</a></li>
 </ul>
 
-<h1 align='center'>Ainda em construção 🚧 </h1>
+## WEB :computer:
+
+![Web](https://github.com/thaislsilveira/nlw-04-moveit/blob/main/images/nlw4.gif)
