@@ -30,6 +30,6 @@ yarn dev
     <li><a href="https://nextjs.org/" target="_blank">Next.js</a></li>
 </ul>
 
-## WEB :computer:
+<h2 align='center'> WEB :computer: </h2>
 
 ![Web](https://github.com/thaislsilveira/nlw-04-moveit/blob/main/images/nlw4.gif)
