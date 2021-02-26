@@ -12,9 +12,11 @@ para pessoas que trabalham em escritório ou home office. 👩🏽‍💻
 Em caso de download do projeto você precisará baixar as dependências:  
 
 **Necessário:** Yarn   
+
 <ul>
  <li>Para iniciar o projeto, basta executar o comando abaixo:</li>
 </ul>
+
 ```
 yarn dev 
 
