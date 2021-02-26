@@ -13,11 +13,12 @@ Em caso de download do projeto você precisará baixar as dependências:
 
 **Necessário:** Yarn   
 
--Para iniciar o projeto, basta executar o comando abaixo:
+<ul>
+ <li>Para iniciar o projeto, basta executar o comando abaixo:</li>
+</ul>
 
 ```
 yarn dev 
-
 ```
 
 ## Tecnologias utilizadas 🚀
@@ -28,4 +29,6 @@ yarn dev
     <li><a href="https://nextjs.org/" target="_blank">Next.js</a></li>
 </ul>
 
-<h1 align='center'>Ainda em construção 🚧 </h1>
+<h2 align='center'> WEB :computer: </h2>
+
+![Web](https://github.com/thaislsilveira/nlw-04-moveit/blob/main/images/nlw4.gif)
