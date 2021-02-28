@@ -1,9 +1,27 @@
-import '../styles/global.css';
+import '../styles/global.css'
 
-function MyApp({ Component, pageProps }) {
+import { UserProvider } from '../contexts/UserContext'
+import { GetServerSideProps } from 'next'
+
+export default function MyApp({ Component, pageProps }) {
   return (
-        <Component {...pageProps} />
+    <UserProvider
+      username={pageProps.username}
+      name={pageProps.name}
+      avatar={pageProps.avatar}
+    >
+      <Component {...pageProps} />
+    </UserProvider>
   )
 }
 
-export default MyApp
+export const getServerSideProps: GetServerSideProps = async (ctx) => {
+  const { username, name, avatar } = ctx.req.cookies
+  return {
+    props: {
+      username: String(username),
+      name: String(name),
+      avatar: String(avatar),
+    },
+  }
+}

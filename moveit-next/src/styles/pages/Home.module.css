@@ -1,18 +1,98 @@
-.container {
+.body {
   height: 100vh;
-  max-width: 992px;
-  margin: 0 auto;
-  padding: 2.5rem 2rem;
-
-  display: flex;
-  flex-direction: column;
+  background: url('/icons/Simbolo.svg') no-repeat left;
+  background-color: var(--blue);
+  position: relative;
 }
 
-.container section {
-  flex: 1;
+.container {
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  display: flex;
+  flex-direction: column;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6.25rem;
-  align-content: center;
+}
+
+.container > img {
+  margin-bottom: 4rem;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.container > div strong {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.875rem;
+  color: var(--white);
+}
+
+.loginHeader {
+  display: flex;
+  align-items: center;
+  color: #b2b9ff;
+  margin-bottom: 1.5rem;
+}
+
+.loginHeader p {
+  margin: 1rem;
+  max-width: 70%;
+  text-align: left;
+}
+
+.gitHubIcon {
+  font-size: 2.5rem;
+}
+
+.container div form {
+  display: flex;
+  align-items: center;
+}
+
+.container div form input {
+  background: linear-gradient(to right, var(--blue-dark), var(--blue));
+  height: 5rem;
+  width: 21.25rem;
+  border: none;
+  border-radius: 5px;
+  text-indent: 20px;
+  color: white;
+}
+
+.container div form input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.container div form input::placeholder {
+  color: white;
+  font-weight: 600;
+}
+
+.container div form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 5rem;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: var(--blue-dark);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 2.2rem;
+  transition: filter 0.25s;
+}
+
+.container div form button:hover {
+  filter: brightness(0.9);
+}
+
+.container div form button:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
